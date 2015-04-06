@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory,createWebHashHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Home from '../App.vue'
 import Login from '../views/Login/Login.vue'
-
+import map from '../components/Map/map.vue'
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -14,8 +14,13 @@ const router = createRouter({
     {
       path: '/home',
       name: 'home',
-      component: HomeView
+      component: map
     },
+    {
+      path: '/map',
+      name: 'map',
+      component: map
+    }
   ]
 })
 router.beforeEach((to,from,next)=>{

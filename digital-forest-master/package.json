@@ -1,0 +1,31 @@
+{
+  "name": "digitalforest",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.6.2",
+    "cesium": "^1.113.0",
+    "echarts": "^5.4.3",
+    "element-plus": "^2.4.3",
+    "eventemitter3": "^5.0.1",
+    "highcharts": "^11.2.0",
+    "qweather-icons": "^1.6.0",
+    "vite-plugin-cesium": "^1.2.22",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "wellknown": "^0.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "vite": "^5.0.0"
+  }
+}

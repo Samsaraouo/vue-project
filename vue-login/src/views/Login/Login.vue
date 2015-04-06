@@ -7,21 +7,22 @@
       </div>
       <div class="login-form">
         <el-form :model="loginForm" :rules="rules" ref="loginForm">
-          <el-form-item style="margin-bottom: 30px" prop ="userName">
+          <el-form-item style="margin-bottom: 30px" prop ="username">
             <el-input type="text"
-            v-model="loginForm.userName" suffix-icon="User"
+            v-model="loginForm.username" suffix-icon="User"
             placeholder="请输入您的账号"></el-input>
           </el-form-item>
-          <el-form-item prop="passWord">
+          <el-form-item prop="password">
             <el-input type="password" suffix-icon="Lock"
-            v-model="loginForm.passWord"
+            v-model="loginForm.password"
             placeholder="请输入您的密码">
           </el-input>
           </el-form-item>
           <el-form-item>
             <el-button
              style="margin-top:25px;width:100%;background-color: #66CC99;"
-             @click="login()"
+             @click="login"
+             v-on:keyup.enter="login"
              type="primary">用户登录</el-button>
           </el-form-item>
         </el-form>
@@ -33,22 +34,22 @@
 
 <script>
 import axios from 'axios';
-axios.defaults.baseURL = '127.0.0.1:8000/api'
+axios.defaults.baseURL = 'http://127.0.0.1:8000/'
 export default {
   data(){
     
     return{
       loginForm:{
-        userName:'',
-        passWord:''
+        username:'',
+        password:''
       },
       rules:{
-        userName:[{
+        username:[{
           required:true,
           message:'用户账号必须输入',
           trigger:'blur'
         }],
-        passWord:[{
+        password:[{
           required:true,
           message:'用户密码必须输入',
           trigger:'blur'
@@ -57,14 +58,14 @@ export default {
       
     }
   },
-  methods:{
+  methods: {
     login () {
       let _this = this;
       
       axios({
-          method: 'post',
-          url: '/login',
-          data: _this.loginform
+          method: 'POST',
+          url: 'login/',
+          data: _this.loginForm
         }).then(Response=>{
           if(Response.data.code==1){
             this.$message.success("登录成功");
