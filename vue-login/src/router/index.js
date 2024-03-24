@@ -1,10 +1,10 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createRouter, createWebHistory,createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login/Login.vue'
-Vue.use(VueRouter)
 
-export default new VueRouter({
+
+const router = createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/login',
@@ -14,3 +14,4 @@ export default new VueRouter({
   ]
 })
 
+export default router
