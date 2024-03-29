@@ -26,6 +26,10 @@
    
   <script>
   import { Button, Checkbox, Form, Input } from 'antd';
+<<<<<<< HEAD
+=======
+  import axios from 'axios';
+>>>>>>> 4bc0562628e56b39ddf19cf362d4f6b5cb56e0f5
   export default {
     data() {
       return {
@@ -67,16 +71,29 @@
   <style scoped>
   .login-form {
     width: 350px;
+<<<<<<< HEAD
     /*上下边距160px,左右自动居中*/
     margin: 180px auto;
     background-color: rgb(255, 255, 255, 0.8);
+=======
+    /* 上下边距160px,左右自动居中 */
+    margin: 180px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+>>>>>>> 4bc0562628e56b39ddf19cf362d4f6b5cb56e0f5
     padding: 28px;
     border-radius: 20px;
   }
   .login-container {
     position: absolute;
+<<<<<<< HEAD
     width: 100%;
     height: 100%;
+=======
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+>>>>>>> 4bc0562628e56b39ddf19cf362d4f6b5cb56e0f5
     background: url(background.png);
   }
   .login-title {
