@@ -9,13 +9,14 @@
         <el-form :model="loginForm" :rules="rules" ref="loginForm">
           <el-form-item style="margin-bottom: 30px" prop ="userName">
             <el-input type="text"
-            v-model="loginForm.userName" suffix-icon="el-icon-user-solid"
+            v-model="loginForm.userName" suffix-icon="User"
             placeholder="请输入您的账号"></el-input>
           </el-form-item>
           <el-form-item prop="passWord">
-            <el-input type="password"
-            v-model="loginForm.passWord" suffix-icon="el-icon-lock"
-            placeholder="请输入您的密码"></el-input>
+            <el-input type="password" suffix-icon="Lock"
+            v-model="loginForm.passWord"
+            placeholder="请输入您的密码">
+          </el-input>
           </el-form-item>
           <el-form-item>
             <el-button
@@ -32,10 +33,11 @@
 
 <script>
 import axios from 'axios';
-import { defineComponent, ref } from 'vue';
+import { User, Lock, Promotion } from '@element-plus/icons-vue';
+
 export default {
   data(){
-
+    
     return{
       loginForm:{
         userName:'',
