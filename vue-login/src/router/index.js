@@ -10,8 +10,25 @@ const router = createRouter({
       path: '/login',
       name: 'login',
       component: Login
-    }
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: HomeView
+    },
   ]
 })
-
+router.beforeEach((to,from,next)=>{
+  if(to.path=="/"){
+      next("/main");
+  }
+  if(to.path=="/login"){
+      next();
+  }
+  else{
+      let token=sessionStorage.getItem("token");
+      token ? next():next("/login");
+  }
+  
+})
 export default router
