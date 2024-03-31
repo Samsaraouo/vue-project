@@ -20,7 +20,7 @@ const router = createRouter({
 })
 router.beforeEach((to,from,next)=>{
   if(to.path=="/"){
-      next("/main");
+      next("/home");
   }
   if(to.path=="/login"){
       next();

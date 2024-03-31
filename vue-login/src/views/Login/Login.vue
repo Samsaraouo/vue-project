@@ -33,8 +33,7 @@
 
 <script>
 import axios from 'axios';
-import { User, Lock, Promotion } from '@element-plus/icons-vue';
-
+axios.defaults.baseURL = '127.0.0.1:8000/api'
 export default {
   data(){
     
@@ -64,7 +63,7 @@ export default {
       
       axios({
           method: 'post',
-          url: '/api/login/',
+          url: '/login',
           data: _this.loginform
         }).then(Response=>{
           if(Response.data.code==1){
