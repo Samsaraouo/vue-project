@@ -1,9 +1,25 @@
 <script setup>
 import {ref} from "vue";
+import router from "@/router/index.js";
+import axios from "axios";
   let nowtime = ref(new Date().toLocaleString())
 setInterval(() => {
   nowtime.value = new Date().toLocaleString()
 }, 1000);
+const user_manage = () =>{
+  router.push("/usermanage")
+}
+const logout = () =>{
+  let _this = this;
+  axios({
+          method: 'GET',
+          url: 'logout/',
+        }).then(Response=>{
+          if(Response.data.code==1){
+            router.push("/login")
+  }
+})
+}
 </script>
 <template>
   <el-row>
@@ -37,7 +53,7 @@ setInterval(() => {
     </el-col>
     <el-col :sm={span:2} :xs={span:4,push:0}>
       <div class="grid-content">
-        <p class="p1">
+        <p class="p1" @click = "user_manage">
           <el-icon>
             <Tools/>
           </el-icon>
@@ -47,7 +63,7 @@ setInterval(() => {
     </el-col>
     <el-col :sm={span:2} :xs={span:4,push:0}>
       <div class="grid-content">
-        <p class="p1">
+        <p class="p1" @click="logout">
           <el-icon>
             <SwitchButton/>
           </el-icon>
@@ -87,7 +103,7 @@ setInterval(() => {
 }
 
 .title {
-  background-color: #01847F;
+  background-color: #0095ff;
   width: 100%;
   height: 6vmin;
   text-align: center;

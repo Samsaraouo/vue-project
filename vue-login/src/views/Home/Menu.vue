@@ -1,8 +1,10 @@
 <script setup>
+import router from "@/router";
 import {ref} from "vue"
+
 const items = ref([
-  {label: "林地一张图"},
-  {label: "林业资源管理系统"},
+  {label: "林地一张图",route:"map"},
+  {label: "林业资源管理系统",route:"home"},
   {label: "森林动态模拟系统"},
   {label: "林业权属管理系统"},
   {label: "碳汇交易管理系统"},
@@ -11,6 +13,18 @@ const items = ref([
   {label: "林地监测管理系统"},
   // "森林康养地管理系统",
 ])
+const changePage = (item) =>{
+  switch (item.label){
+    case "林地一张图":{
+      router.push("/map")
+      break
+    }
+    case "林业资源管理系统":{
+      router.push("/home")
+      break
+    }
+  }
+}
 </script>
 
 <template>
@@ -33,8 +47,8 @@ const items = ref([
   justify-content: space-between;
 
   .menu {
-    background: linear-gradient(112deg, transparent 1vmin, #01847F 0) left top,
-    linear-gradient(-68deg, transparent 1vmin, #01847F 0) right bottom;
+    background: linear-gradient(112deg, transparent 1vmin, #0095ff 0) left top,
+    linear-gradient(-68deg, transparent 1vmin, #0095ff 0) right bottom;
     background-size: 51% 100%;
     background-repeat: no-repeat;
     filter: drop-shadow(.5vmin .5vmin .2vmin #406B6A);
