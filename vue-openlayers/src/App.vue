@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <OpenLayersMap></OpenLayersMap>
+    <map></map>
   </div>
 </template>
  
 <script>
-import OpenLayersMap from './components/OpenLayersMap.vue'
+import map from './components/map.vue'
 export default {
-  components: { OpenLayersMap },
-  name: 'App'
+  components: { map },
 }
 </script>
  

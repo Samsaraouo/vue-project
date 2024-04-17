@@ -4,7 +4,7 @@
       <el-card class="box-card">
         <el-form :inline="true" :model="formInline" class="demo-form-inline">
           <el-form-item label="部门" label-width="70px">
-            <el-select clearable v-model="formInline.city" placeholder="请选择">
+            <el-select clearable v-model="formInline.city" placeholder="请选择" width="90px">
               <el-option
                 v-for="item in cities"
                 :key="item.value"

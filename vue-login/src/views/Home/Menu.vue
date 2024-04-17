@@ -16,12 +16,15 @@ const items = ref([
 const changePage = (item) =>{
   switch (item.label){
     case "林地一张图":{
-      router.push("/map")
+      router.push("/charts")
       break
     }
     case "林业资源管理系统":{
-      router.push("/home")
+      router.push("/map")
       break
+    }
+    case "森林动态模拟系统":{
+      router.push("/chart1")
     }
   }
 }

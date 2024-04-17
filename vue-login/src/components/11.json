@@ -1,0 +1,1243 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "EPSG:4326"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 19517,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3138685882758,
+                    28.798189709541642,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19518,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31358340566432,
+                    28.797019630455264,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19520,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31147275680262,
+                    28.797083803776513,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19521,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31054652971048,
+                    28.798573614390232,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19522,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.31013946893361,
+                    28.798390495241687,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19523,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30888340612832,
+                    28.798554511945934,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19524,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30834587858077,
+                    28.79895843533113,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19525,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30984045886981,
+                    28.797976610524966,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19686,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30054329793798,
+                    28.801802224981145,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19687,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30083641873084,
+                    28.801051410577603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19688,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30076273630692,
+                    28.801110658953956,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19689,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30136217308231,
+                    28.801219468792933,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19692,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30347519928175,
+                    28.79850246008412,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19693,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3034919101237,
+                    28.798283752654616,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19694,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30398919989564,
+                    28.798857095863934,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19695,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30469663103109,
+                    28.799644812778237,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19696,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3068180108128,
+                    28.79999408736818,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19697,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3070229933386,
+                    28.800026088177212,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19698,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30697322465193,
+                    28.80013672945975,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24665,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30188639327274,
+                    28.80633608692922,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24667,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30221891501016,
+                    28.80621648346835,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24732,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30665306642878,
+                    28.802751147652113,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24734,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3064475822516,
+                    28.802697920099558,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24735,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30681656853118,
+                    28.802613856237638,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24736,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30714090671513,
+                    28.802512046337448,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24740,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3062759666108,
+                    28.801008509586033,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24741,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30985040309913,
+                    28.800969998398823,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24743,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30897815916337,
+                    28.800341879219168,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36673,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20928202991759,
+                    28.618200205580724,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 36708,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20813463200612,
+                    28.61717099196319,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37508,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20794783745598,
+                    28.619098805585526,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37509,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20748384175795,
+                    28.618197584802633,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37510,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20774558245817,
+                    28.617519438048475,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 37511,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20861408645297,
+                    28.61782281911258,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 38244,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20769152513445,
+                    28.618778735356702,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65052,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3035035814441,
+                    28.79918341548854,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65053,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30394520972176,
+                    28.799013997053454,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65054,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30404038774795,
+                    28.799023515401508,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65055,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30715843367118,
+                    28.7998192068901,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65056,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30736973021548,
+                    28.800017178076097,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65057,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30740970526796,
+                    28.799984817894398,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65058,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30761338665215,
+                    28.799882024678663,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65059,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30780564692756,
+                    28.800003852982357,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65060,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30787417566945,
+                    28.799963878393655,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65061,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30842240344495,
+                    28.79939661516998,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65062,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30826250389117,
+                    28.79939471115374,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65063,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30813115741272,
+                    28.79910917635526,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65064,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30436209165686,
+                    28.79720370350691,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65100,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3040440483906,
+                    28.798355321652,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65101,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30411067363166,
+                    28.798707481820962,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65102,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30477882594337,
+                    28.798827407214986,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65103,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30452565107448,
+                    28.79818400047368,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65104,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3048111862828,
+                    28.798026004550536,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65105,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30565827464227,
+                    28.797869912136836,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65106,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30472743018406,
+                    28.79731787656712,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65107,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30624838065731,
+                    28.796805816643477,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65108,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30677566978774,
+                    28.796876248918018,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65109,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30700219422414,
+                    28.797076123346503,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65110,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30625356789322,
+                    28.797280376242067,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 65111,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30588665531522,
+                    28.797780063492436,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 68334,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20876945068024,
+                    28.618059731676716,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75003,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20935436574145,
+                    28.61908536490446,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75004,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20914497245842,
+                    28.619879153485915,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75006,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.2086881158421,
+                    28.621815082894482,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75009,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20790955645026,
+                    28.623659640860293,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75010,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20775536769554,
+                    28.623667255239074,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75011,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20663416543894,
+                    28.62306001643786,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75012,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20476866829868,
+                    28.623726266331886,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75019,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20209367816597,
+                    28.622976260030836,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 75020,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.20074737874506,
+                    28.62299624755603,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79217,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.29921013408924,
+                    28.802673203859133,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 79219,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3059449950938,
+                    28.79976087378092,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86171,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.3049259437561,
+                    28.80468309322251,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86178,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.304959920902,
+                    28.804198730117623,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86313,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "113"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30289853039515,
+                    28.804370422414486,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86314,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30479905265642,
+                    28.805025249637296,
+                    0.0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 86315,
+            "properties": {
+                "lin_ban": "0011",
+                "di_lei": "111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.30440920229194,
+                    28.805573477766337,
+                    0.0
+                ]
+            }
+        }
+    ]
+}

@@ -2,7 +2,9 @@
 import {ref} from "vue";
 import router from "@/router/index.js";
 import axios from "axios";
-  let nowtime = ref(new Date().toLocaleString())
+import { ElMessage } from "element-plus";
+
+let nowtime = ref(new Date().toLocaleString())
 setInterval(() => {
   nowtime.value = new Date().toLocaleString()
 }, 1000);
@@ -17,6 +19,7 @@ const logout = () =>{
         }).then(Response=>{
           if(Response.data.code==1){
             router.push("/login")
+            ElMessage.success("登出成功")
   }
 })
 }
