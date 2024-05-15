@@ -1,16 +1,16 @@
 <script setup>
-import {onMounted, ref, watch} from "vue";
+import { onMounted, ref, watch } from "vue";
 import router from "@/router/index.js";
 
 const items = ref([
-  {label: "林地一张图", route: "home"},
-  {label: "林业资源管理系统", route: "resource"},
-  {label: "森林动态模拟系统", route: "model"},
-  {label: "林业权属管理系统", route: "ownership"},
-  {label: "碳汇交易管理系统", route: "carbonTrading"},
-  {label: "林业审批管理系统", route: "approval"},
-  {label: "林木采伐管理系统", route: "harvesting"},
-  {label: "林地监测管理系统", route: "monitoring"},
+  { label: "林地一张图", route: "home" },
+  { label: "林业资源管理系统", route: "resource" },
+  { label: "森林动态模拟系统", route: "model" },
+  { label: "林业权属管理系统", route: "ownership" },
+  { label: "碳汇交易管理系统", route: "carbonTrading" },
+  { label: "林业审批管理系统", route: "approval" },
+  { label: "林木采伐管理系统", route: "harvesting" },
+  { label: "林地监测管理系统", route: "monitoring" },
   // "森林康养地管理系统",
 ])
 const foucsKey = ref()
@@ -53,7 +53,7 @@ const changePage = (item) => {
   }
 }
 onMounted(() => {
-  foucsKey.value = foucsKey.value || (window.location.href.split("#/")[1]||"home")
+  foucsKey.value = foucsKey.value || (window.location.href.split("#/")[1] || "home")
   console.log(foucsKey.value)
   document.getElementById(foucsKey.value)?.setAttribute("style", "filter: drop-shadow(.5vmin .5vmin .3vmin #ffffff);")
   watch(foucsKey, (n, o) => {
@@ -64,11 +64,11 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="box">
-      <div v-for="(item,index) in items" class="menu" :tabIndex="index" :id="item.route" @click="changePage(item)">
-        <p class="p">{{ item.label }}</p>
-      </div>
+  <div class="box">
+    <div v-for="(item, index) in items" class="menu" :tabIndex="index" :id="item.route" @click="changePage(item)">
+      <p class="p">{{ item.label }}</p>
     </div>
+  </div>
 </template>
 
 <style scoped lang="scss">
@@ -84,7 +84,7 @@ onMounted(() => {
 
   .menu {
     background: linear-gradient(112deg, transparent 1vmin, #01847F 0) left top,
-    linear-gradient(-68deg, transparent 1vmin, #01847F 0) right bottom;
+      linear-gradient(-68deg, transparent 1vmin, #01847F 0) right bottom;
     background-size: 51% 100%;
     background-repeat: no-repeat;
     filter: drop-shadow(.5vmin .5vmin .2vmin #406B6A);
@@ -107,7 +107,8 @@ onMounted(() => {
   //  outline: none;
   //}
 }
-.box::-webkit-scrollbar{
+
+.box::-webkit-scrollbar {
   display: none;
 }
 </style>

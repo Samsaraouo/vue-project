@@ -10,17 +10,19 @@
           <el-form-item style="margin-bottom: 30px" prop ="username">
             <el-input type="text"
             v-model="loginForm.username" suffix-icon="User"
-            placeholder="请输入您的账号"></el-input>
+            placeholder="请输入您的账号"
+            @keyup.enter="login"></el-input>
           </el-form-item>
           <el-form-item prop="password">
             <el-input type="password" suffix-icon="Lock"
             v-model="loginForm.password"
-            placeholder="请输入您的密码">
+            placeholder="请输入您的密码"
+            @keyup.enter="login">
           </el-input>
           </el-form-item>
           <el-form-item>
             <el-button
-             style="margin-top:25px;width:100%;background-color: #66CC99;"
+             style="margin-top:25px;width:100%;background-color: #0043a7;"
              @click="login"
              v-on:keyup.enter="login"
              type="primary">用户登录</el-button>
@@ -92,17 +94,20 @@ export default {
 <style>
 .login-container{
   background-image: url('/src/views/Login/background.png');
-  background-size: cover;
+  background-size: cover; 
   position: fixed;
+  width: 100%; /* 宽度自适应父容器 */
+  height: auto; /* 高度按比例缩放 */
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
+  object-fit: cover;
 }
 .login-win{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform: translate(-50%,-50%);
   width: 400px;
   height: 300px;
@@ -117,7 +122,7 @@ export default {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
-  color: #66cc99;
+  color: #0043a7;
   margin-bottom: 45px;
   margin-top: 15px;
 }

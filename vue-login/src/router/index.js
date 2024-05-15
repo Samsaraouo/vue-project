@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory,createWebHashHistory } from 'vue-router'
-import Home from '../App.vue'
 import Login from '../views/Login/Login.vue'
-import Map from '../components/map/map.vue'
+import Popup from '../components/popup/index.vue'
 import UserManage from '../components/user_manage.vue'
-import MapCharts from '../components/map/map_charts.vue'
-import chart1 from '../components/charts/chart1.vue'
-
+import MapCharts from '../components/charts/index.vue'
+import table from '../components/tables/table.vue'
+import analysis from '../components/analysis/index.vue'
+import usermanage from '../components/users/index.vue'
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -25,20 +25,25 @@ const router = createRouter({
       component : MapCharts
     },
     {
-      path: '/map',
-      name: 'map',
-      component: Map
+      path: '/popup',
+      name: 'Popup',
+      component: Popup
     },
     {
       path:'/usermanage',
       name:'usermanage',
-      component : UserManage
+      component : usermanage
     },
     {
-      path:'/chart1',
-      name:'chart1',
-      component : chart1
-    }
+      path:'/table',
+      name:'table',
+      component : table
+    },
+    {
+      path:'/analysis',
+      name:'analysis',
+      component : analysis
+    },
   ]
 })
 router.beforeEach((to,from,next)=>{

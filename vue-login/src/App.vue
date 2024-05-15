@@ -1,8 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Head from './views/Home/Head.vue'
-import Menu from './views/Home/Menu.vue'
-import DevicePixelRatio from '@/utils/DevicePixelRatio.js';
+import Home from './views/Home/Home.vue';
 window.scrollTo(0,0)
 window.oncontextmenu = function (e) {
   // 取消默认的浏览器自带右键 很重要！！
@@ -15,14 +13,15 @@ window.oncontextmenu = function (e) {
   <div style="position: fixed; width: 100%;">
     <el-row>
       <el-col>
-        <Head></Head>
+        <!-- <Head></Head> -->
+        <Home></Home>
       </el-col>
     </el-row>
-    <el-row>
+    <!-- <el-row>
       <el-col>
         <Menu></Menu>
       </el-col>
-    </el-row>
+    </el-row> -->
     <el-row>
       <el-col>
         <router-view></router-view>

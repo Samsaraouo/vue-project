@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -15,16 +15,19 @@
     "axios": "^1.6.8",
     "cesium": "1.104",
     "echarts": "^5.5.0",
+    "el-table-infinite-scroll": "^3.0.3",
     "element": "^0.1.4",
     "element-plus": "^2.6.3",
     "eventemitter3": "^5.0.1",
+    "mitt": "^3.0.1",
     "openlayers": "^4.6.5",
     "qs": "^6.12.0",
     "react": "^18.2.0",
     "vue": "^3.4.21",
     "vue-axios": "^3.5.2",
     "vue-install": "^1.1.1",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-eventbus": "^2.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
